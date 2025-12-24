@@ -9,6 +9,7 @@ const navLinks = [
   { name: "Services", path: "/services" },
   { name: "Technology", path: "/technology" },
   { name: "Why KodMex", path: "/why-kodmex" },
+  { name: "Careers", path: "/careers" },
   { name: "Contact", path: "/contact" },
 ];
 

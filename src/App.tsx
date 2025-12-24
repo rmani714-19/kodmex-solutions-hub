@@ -8,6 +8,9 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Technology from "./pages/Technology";
 import WhyKodMex from "./pages/WhyKodMex";
+import Careers from "./pages/Careers";
+import Jobs from "./pages/Jobs";
+import JobDetails from "./pages/JobDetails";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -25,6 +28,9 @@ const App = () => (
           <Route path="/services" element={<Services />} />
           <Route path="/technology" element={<Technology />} />
           <Route path="/why-kodmex" element={<WhyKodMex />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/careers/jobs" element={<Jobs />} />
+          <Route path="/careers/jobs/:id" element={<JobDetails />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
